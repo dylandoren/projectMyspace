@@ -1,0 +1,25 @@
+.totalPlaysDownLoadsPlayTodayCounter {
+  background: black;
+  color: aliceblue;
+}
+
+.currentSongArtistStatusSection {
+  background: black;
+  color: aliceblue;
+}
+
+.upperSectionOfPlayerControlButtonsAndVisualStatus {
+  background: grey;
+}
+
+.albumArtLocationAndAlbumTitleAndYear {
+  background: grey;
+}
+
+/* INDIVIDUAL SONG TITLE */
+#firstSongTitle,
+#secondSongTitle,
+#thirdSongTitle,
+#fourthSongTitle {
+  color: blue;
+}
