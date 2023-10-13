@@ -12,14 +12,15 @@
   background: grey;
 }
 
-//*CSS GRID **** (attempt)
+/*CSS GRID **** (attempt)
 .controlButtonsStopPlayPausePlayFastFoward {
   grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
   grid-template-rows: [row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
   grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
   grid-template-rows: [row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
 }
-**/ */ .albumArtLocationAndAlbumTitleAndYear {
+**/
+.albumArtLocationAndAlbumTitleAndYear {
   background: grey;
 }
 
