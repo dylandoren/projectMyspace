@@ -13,66 +13,45 @@
     <title>Myspace Music</title>
   </head>
   <body>
-    <div class="upperSectionOfPlayerControlButtonsAndVisualStatus">
-      <!--TOP LEFT *** /// -CSS GRID CONTAINER *** deleted from HTML ///-->
-      <!--top left button controls grid-->
-      <!--DELETED DIV FOR CSS GRID END
-      <div 
-     class="controlButtonsStopPlayPausePlayFastFoward">
-       -->
-      <!--TOP LEFT *****BUTTON CONTROLS STOP,REWIND, PAUSE, PLAY, FAST FORWARD-->
-      <div>
-        <!--STOP BUTTON-->
-        <!--<div>-->
-          <button>STOP</button>
-        </div>
-        <!--REWIND BUTTON-->
-        <div>
-          <button>REWIND</button>
-        </div>
-        <!--PAUSE BUTTON-->
-        <div>
-          <button>PAUSE</button>
-        </div>
-        <!--PLAY BUTTON-->
-        <div>
-          <button>PLAY</button>
-        </div>
-        <!--FAST FOWORD BUTTON-->
-        <div>
-          <button>FAST FORWARD</button>
-        </div>
-      <!-- DELETED DIV FOR CSS GRID END
+    <div class="musicPlayerAsAWholeContainer">
+      <div class="upperSectionOfPlayerControlButtonsAndVisualStatus">
+        <!--TOP LEFT *** /// -CSS GRID CONTAINER *** deleted from HTML ///-->
+        <!--top left button controls grid-->
+        <!--DIV FOR CSS GRID END-->
+        <div class="controlButtonsStopPlayPausePlayFastFoward">
+          <!--TOP LEFT *****BUTTON CONTROLS STOP,REWIND, PAUSE, PLAY, FAST FORWARD-->
+          <div>
+            <!--STOP BUTTON-->
+            <!--<div>-->
+            <button>STOP</button>
+          </div>
+          <!--REWIND BUTTON-->
+          <div>
+            <button>REWIND</button>
+          </div>
+          <!--PAUSE BUTTON-->
+          <div>
+            <button>PAUSE</button>
+          </div>
+          <!--PLAY BUTTON-->
+          <div>
+            <button>PLAY</button>
+          </div>
+          <!--FAST FOWORD BUTTON-->
+          <div>
+            <button>FAST</button>
+          </div>
+          <!-- DELETED DIV FOR CSS GRID END
       </div>
       -->
-      </div>
-      
-      <!--TOP LEFT -VOLUME ICON, VOLUME SLIDER, VOLUME LEVEL BARS-->
-      <div>
-        <!--volume icon ** TEMP PLACEHOLDER ** -->
-        <i class="fa fa-volume-up" style="font-size: 36px"></i>
-      </div>
-      <!--volume slider **TEMP PLACEHOLER ** -->
-      <input
-        type="range"
-        min="1"
-        max="100"
-        value="50"
-        class="slider"
-        id="myRange"
-      />
-      <!--TOP RIGHT -TEXT (CURRENT SONG, ARTIST, STATUS)-->
-      <div class="currentSongArtistStatusSection">
-        <p>Lonely Alone</p>
-        <p>PEAL</p>
-        <p>playing</p>
-      </div>
-      <!--TOP LEFT -TIME INDICATOR (STATUS SLIDER)-->
-      <div>
-        <p>00:00</p>
-      </div>
-      <!--TOP RIGHT -SONG STATUS ** SLIDER ** -->
-      <div>
+        </div>
+
+        <!--TOP LEFT -VOLUME ICON, VOLUME SLIDER, VOLUME LEVEL BARS-->
+        <div>
+          <!--volume icon ** TEMP PLACEHOLDER ** -->
+          <i class="fa fa-volume-up" style="font-size: 36px"></i>
+        </div>
+        <!--volume slider **TEMP PLACEHOLER ** -->
         <input
           type="range"
           min="1"
@@ -81,60 +60,81 @@
           class="slider"
           id="myRange"
         />
+        <!--TOP RIGHT -TEXT (CURRENT SONG, ARTIST, STATUS)-->
+        <div class="currentSongArtistStatusSection">
+          <p>Lonely Alone</p>
+          <p>PEAL</p>
+          <p>playing</p>
+        </div>
+        <!--TOP LEFT -TIME INDICATOR (STATUS SLIDER)-->
+        <div>
+          <p>00:00</p>
+        </div>
+        <!--TOP RIGHT -SONG STATUS ** SLIDER ** -->
+        <div>
+          <input
+            type="range"
+            min="1"
+            max="100"
+            value="50"
+            class="slider"
+            id="myRange"
+          />
+        </div>
       </div>
-    </div>
-    <!--MIDDLE LEFT TO RIGHT -TOTAL PLAYS, DOWNLOADS, TODAY'S PLAYS-->
-    <div class="totalPlaysDownLoadsPlayTodayCounter">
-      <div>
-        <p>Total Plays: 13375</p>
+      <!--MIDDLE LEFT TO RIGHT -TOTAL PLAYS, DOWNLOADS, TODAY'S PLAYS-->
+      <div class="totalPlaysDownLoadsPlayTodayCounter">
+        <div>
+          <p>Total Plays: 13375</p>
+        </div>
+        <div>
+          <p>Downloads Today: 0</p>
+        </div>
+        <div>
+          <p>Plays Today: 11</p>
+        </div>
       </div>
-      <div>
-        <p>Downloads Today: 0</p>
+      <!--MID LEFT MID TO BOTTOM -ALBUM ART LOCATION-->
+      <div class="albumArtLocationAndAlbumTitleAndYear">
+        <!--BOTTOM LEFT -NAME OF ALBUM (UNDER ARTWORK & RELEASE DATE)-->
+        <div>
+          <p>Beautiful Baby Elephant</p>
+          <p>2005 Independent</p>
+        </div>
       </div>
-      <div>
-        <p>Plays Today: 11</p>
-      </div>
-    </div>
-    <!--MID LEFT MID TO BOTTOM -ALBUM ART LOCATION-->
-    <div class="albumArtLocationAndAlbumTitleAndYear">
-      <!--BOTTOM LEFT -NAME OF ALBUM (UNDER ARTWORK & RELEASE DATE)-->
-      <div>
-        <p>Beautiful Baby Elephant</p>
-        <p>2005 Independent</p>
-      </div>
-    </div>
-    <!--MIDDLE TO RIGHT / MIDDLE TO BOTTOM - INDIVDUAL SONG TITLES , PLAYS
+      <!--MIDDLE TO RIGHT / MIDDLE TO BOTTOM - INDIVDUAL SONG TITLES , PLAYS
     COUNTER,etc -->
-    <div>
-      <!--1st song-->
       <div>
-        <p id="firstSongTitle"><u>Lonely Alone</u></p>
-        <p>Plays: 2970</p>
-        <p>Download | Rate | Comments | Lyrics | Add</p>
+        <!--1st song-->
+        <div>
+          <p id="firstSongTitle"><u>Lonely Alone</u></p>
+          <p>Plays: 2970</p>
+          <p>Download | Rate | Comments | Lyrics | Add</p>
+        </div>
+        <!--2nd song-->
+        <div>
+          <p id="secondSongTitle"><u>Fall Away</u></p>
+          <p>Plays: 1060</p>
+          <p>Download | Rate | Comments | Lyrics | Add</p>
+        </div>
+        <!--3rd song-->
+        <div>
+          <p id="thirdSongTitle"><u>Carousel Junkie</u></p>
+          <p>Plays: 862</p>
+          <p>Download | Rate | Comments | Lyrics | Add</p>
+        </div>
+        <!--4th song-->
+        <div>
+          <p id="fourthSongTitle"><u>Maria</u></p>
+          <p>Plays: 770</p>
+          <p>Download | Rate | Comments | Lyrics | Add</p>
+        </div>
       </div>
-      <!--2nd song-->
+      <!--BOTTOM RIGHT -FOOTER (logos)-->
       <div>
-        <p id="secondSongTitle"><u>Fall Away</u></p>
-        <p>Plays: 1060</p>
-        <p>Download | Rate | Comments | Lyrics | Add</p>
+        <div>myspace logo GOES HERE</div>
+        <div>STANDAL ONE PLAYER</div>
       </div>
-      <!--3rd song-->
-      <div>
-        <p id="thirdSongTitle"><u>Carousel Junkie</u></p>
-        <p>Plays: 862</p>
-        <p>Download | Rate | Comments | Lyrics | Add</p>
-      </div>
-      <!--4th song-->
-      <div>
-        <p id="fourthSongTitle"><u>Maria</u></p>
-        <p>Plays: 770</p>
-        <p>Download | Rate | Comments | Lyrics | Add</p>
-      </div>
-    </div>
-    <!--BOTTOM RIGHT -FOOTER (logos)-->
-    <div>
-      <div>myspace logo GOES HERE</div>
-      <div>STANDAL ONE PLAYER</div>
     </div>
   </body>
 </html>
