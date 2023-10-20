@@ -39,9 +39,10 @@
 }
 
 /* INDIVIDUAL SONG TITLE */
-#firstSongTitle,
-#secondSongTitle,
-#thirdSongTitle,
-#fourthSongTitle {
+
+#song-24-firstSongTitle,
+#song-28-secondSongTitle,
+#song-32-thirdSongTitle,
+#song-36-fourthSongTitle {
   color: blue;
 }
