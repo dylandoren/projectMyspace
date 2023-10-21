@@ -76,16 +76,30 @@
             <p>playing</p>
           </div>
         </div>
-        <div id="11-icon-VOLUME-SPEAKER">
-          <!--volume icon ** TEMP PLACEHOLDER ** -->
-          <i class="fa fa-volume-up" style="font-size: 36px"></i>
+        <!--second volume icon / slider-->
+        <div class="volume-2nd-volumeIconWSlider">
+          <div id="volume-11-icon-VOLUME-SPEAKER">
+            <!--volume icon ** TEMP PLACEHOLDER ** -->
+            <i class="fa fa-volume-up" style="font-size: 36px"></i>
+          </div>
+          <!--TOP RIGHT -SONG STATUS ** SLIDER ** -->
+          <div id="volume-13-time-Current-Song-Slider">
+            <input
+              type="range"
+              min="1"
+              max="100"
+              value="50"
+              class="slider"
+              id="myRange"
+            />
+          </div>
         </div>
         <!--TOP LEFT -TIME INDICATOR (STATUS SLIDER)-->
         <div id="12-time-Current-Song-Is-Or-Has-Played">
           <p>00:00</p>
         </div>
         <!--TOP RIGHT -SONG STATUS ** SLIDER ** -->
-        <div id="13-time-Current-Song-Slider">
+        <!-- <div id="volume-13-time-Current-Song-Slider">
           <input
             type="range"
             min="1"
@@ -95,6 +109,7 @@
             id="myRange"
           />
         </div>
+        -->
       </div>
       <!--MIDDLE LEFT TO RIGHT -TOTAL PLAYS, DOWNLOADS, TODAY'S PLAYS-->
       <div
