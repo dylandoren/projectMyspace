@@ -12,6 +12,7 @@
 .currentSongArtistStatusSection {
   background: black;
   color: aliceblue;
+  width: 45%;
 }
 
 .upperSectionOfPlayerControlButtonsAndVisualStatus {
@@ -33,9 +34,16 @@
   grid-template-rows: 10% 10% 10% 100%;
 }
 
+/* 2nd speaker icon and slider*/
 .volume-2nd-volumeIconWSlider {
   display: grid;
   grid-template-columns: 5% 5% 5% 5% 5%;
+  grid-template-rows: 10% 10% 10% 100%;
+}
+
+#container-14-Container-Total-Plays-Downloads-Play-Today-Counter {
+  display: grid;
+  grid-template-columns: 40% 40% 40%;
   grid-template-rows: 10% 10% 10% 100%;
 }
 /*
@@ -47,6 +55,11 @@
 **/
 .albumArtLocationAndAlbumTitleAndYear {
   background: grey;
+}
+
+#info-18-albumArtLocationAndAlbumTitleAndYear {
+  width: 30%;
+  height: 60%;
 }
 
 /* INDIVIDUAL SONG TITLE */
